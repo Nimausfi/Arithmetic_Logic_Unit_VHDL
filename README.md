@@ -48,7 +48,7 @@ A register bank of 64 D flip flops.
 Reset is asynchronous, so when its set, the register bank is cleared (ZEROed).
 
 The register bank needs to be synchronous to the rising edge of the clock.
-(If "en" is set then the D flip flop capture input, else hold the contents of D flip flops).
+(If "en" is set, then the D flip flop capture input, else hold the contents of D flip flops).
 \
 \
 **Module 2: overflow:**

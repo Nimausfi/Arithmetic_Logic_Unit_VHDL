@@ -26,8 +26,8 @@ CLK and En to the register are synchronous.
 Input A is an unsigned with constraint, i.e., (31 downto 0).
 
 Sel chooses the opeartion **(Addition, Multiplication, Shift Left, Shift Right, Compare if Equal and Compare if Less than)** to be performed by the ALU.
-
-
+\
+\
 **Module 1: alu:**
 
 Combinatorial logic.
@@ -39,7 +39,7 @@ Use behavioral operators.
 Use a multiplexor (conditional or selected signal assignment or case statement) to select ALU output.
 
 
-**Module 1: dff:**
+**Module 2: dff:**
 
 Sequential logic, so need a synchronous "clk".
 
@@ -49,3 +49,11 @@ Reset is asynchronous, so when its set, the register bank is cleared (ZEROed).
 
 The register bank needs to be synchronous to the rising edge of the clock.
 (If "en" is set then the D flip flop capture input, else hold the contents of D flip flops).
+
+
+**Module 2: overflow:**
+
+Combinational logic that observes the output of the module 2, and detects if there is an overflow by looking for propagated 1s in the upper 32 bits.
+
+When overflow is detected, the design should assert reset for one cycle.
+

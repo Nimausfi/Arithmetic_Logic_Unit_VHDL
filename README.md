@@ -56,4 +56,7 @@ The register bank needs to be synchronous to the rising edge of the clock.
 Combinational logic that observes the output of the module 2, and detects if there is an overflow by looking for propagated 1s in the upper 32 bits.
 
 When overflow is detected, the design should assert reset for one cycle.
+\
+\
+**Testbench** (alu2_TB) has been provided to simulate and verify the design.
 

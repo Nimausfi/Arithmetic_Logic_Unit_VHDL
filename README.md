@@ -19,4 +19,8 @@ The opcode input is a parallel bus that conveys to the ALU an operation selectio
 
 <img src="ALU_VHDL.jpg">
 
+Reset is asynchronous
+CLK and En to the register are synchronous.
+Input A is an unsigned with constraint, i.e., (31 downto 0).
+Sel chooses the opeartion **(Addition, Multiplication, Shift Left, Shift Right, Compare if Equal and Compare if Less than)** to be performed by the ALU.
 

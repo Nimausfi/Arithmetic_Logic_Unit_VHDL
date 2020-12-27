@@ -19,7 +19,7 @@ The opcode input is a parallel bus that conveys to the ALU an operation selectio
 
 <img src="ALU_VHDL.jpg">
 
-Reset is asynchronous
+Reset is asynchronous.
 
 CLK and En to the register are synchronous.
 

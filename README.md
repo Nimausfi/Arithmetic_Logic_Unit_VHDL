@@ -15,7 +15,7 @@ The opcode input is a parallel bus that conveys to the ALU an operation selectio
 <img src="ALUBlock.jpg" width=600>
 
 ------------------------------------------------------------
-Design Specifications:
+**Design Specifications:**
 
 <img src="ALU_VHDL.jpg">
 

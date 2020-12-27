@@ -25,7 +25,7 @@ CLK and En to the register are synchronous.
 
 Input A is an unsigned with constraint, i.e., (31 downto 0).
 
-Sel chooses the opeartion **(Addition, Multiplication, Shift Left, Shift Right, Compare if Equal and Compare if Less than)** to be performed by the ALU.
+Sel chooses the opertion **(Addition, Multiplication, Shift Left, Shift Right, Compare if Equal and Compare if Less than)** to be performed by the ALU.
 \
 \
 **Module 1: alu:**
@@ -36,7 +36,7 @@ Use concurrent statements to create internal signals/buses that can be assigned 
 
 Use behavioral operators.
 
-Use a multiplexor (conditional or selected signal assignment or case statement) to select ALU output.
+Use a multiplexor (conditional or selected signal assignment or case statement) to select the ALU output.
 \
 \
 **Module 2: dff:**

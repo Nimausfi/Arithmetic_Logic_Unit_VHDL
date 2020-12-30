@@ -58,5 +58,5 @@ Combinational logic that observes the output of the module 2, and detects if the
 When overflow is detected, the design should assert reset for one cycle.
 \
 \
-**Testbench** (design_TB.vhd) has been provided to simulate and verify the design.
+**Testbench** `design_TB.vhd` has been provided to simulate and verify the design.
 

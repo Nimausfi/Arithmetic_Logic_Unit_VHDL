@@ -12,11 +12,13 @@ The inputs of an ALU are the data to be operated on, called operands, and a code
 
 The opcode input is a parallel bus that conveys to the ALU an operation selection code, which is an enumerated value that specifies the desired arithmetic or logic operation to be performed by the ALU.
 
+<p align="center">  
 <img src="ALUBlock.jpg" width=600>
 
 ------------------------------------------------------------
 **Design Specifications:**
 
+<p align="center">  
 <img src="ALU_VHDL.jpg">
 
 Reset is asynchronous.
